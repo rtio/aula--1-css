@@ -1,4 +1,72 @@
-p {
+/* element */
+/* p {
     color: green;
     padding: 30px;
+} */
+
+* {
+    font-family: Arial;
+}
+
+/* ID */
+#main-title {
+    color: red;
+    padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Class */
+.my-content {
+    color: blue;
+    background-color: cyan;
+    padding: 20px;
+    font-size: 10px;
+}
+
+.background-default {
+    background-color: #bcc740;
+}
+
+/* Colors */
+.hexa {
+    background-color: #287c4ae5;
+    color: aqua;
+}
+
+.rgb {
+    background-color: rgb(255, 0, 0);
+    color: aqua;
+}
+
+.color-name {
+    background-color: red;
+    color: aqua;
+}
+
+h1, h2, h3 {
+    padding: 10px;
+}
+
+.sans-serif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.serif {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mono {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.big-text {
+    font-size: 40px;
+}
+
+.heavy-text {
+    font-weight: bold;
+}
+
+.italic-text {
+    font-style: italic;
 }
